@@ -1,0 +1,458 @@
+/* ============
+navber part start
+============== */
+nav{
+    background: rgba(28, 30, 83, 1);
+    padding: 16px 0px !important;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.navbar-nav{
+    column-gap: 32px;
+}
+
+.nav-link{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    transition: .4s;
+}
+
+.nav-item:hover .nav-link{
+    color: #fff
+}
+ 
+
+
+.nav_btn{
+    background: transparent;
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 1px solid  rgba(244, 246, 252, 0.2);
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 500;
+      margin-left: 48px;
+      transition: .4s;
+
+
+}
+.nav_btn:hover{
+    background: rgba(252, 217, 128, 1);
+    color: rgba(27, 28, 43, 1);
+}
+
+/* ============
+navber part end
+============== */
+
+/* ============
+banner  part start
+============== */
+.banner{
+    background: rgba(28, 30, 83, 1);
+    padding: 128px 0px;
+}
+
+.banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    color: #fff;
+      font-family: "Poppins", sans-serif;
+      line-height: 74px;
+}
+
+.banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+      font-family: "Poppins", sans-serif;
+      line-height: 28px;
+      width: 558px;
+      padding-top: 16px;
+}
+
+.banner_btn{
+     background: rgba(252, 217, 128, 1);
+    padding: 16px 56px;
+    border-radius: 41px;
+    border: 1px solid  rgba(244, 246, 252, 0.2);
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      color: rgba(27, 28, 43, 1);
+      font-weight: 500;
+      transition: .4s;
+      display: inline-block;
+      margin-top: 48px;
+
+
+}
+
+.banner_btn:hover{
+    background: transparent;
+    border-color: rgba(244, 246, 252, 0.2) ;
+    color: #fff;
+}
+
+
+.banner .View_Pricing{
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 500;
+      position: relative;
+}
+
+.banner .View_Pricing i{
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    transform: translateY(-50%);
+    transition: .4s;
+    opacity: 0;
+    
+
+}
+
+.banner .View_Pricing:hover i{
+    right: -45px;
+    opacity: 1;
+
+}
+/* ============
+banner  part end
+============== */
+
+
+
+/* ============
+work  part start
+============== */
+.work{
+    padding: 128px 0px;
+}
+
+.title h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(40, 41, 56, 1);
+     font-family: "Poppins", sans-serif;
+
+}
+
+.title p{
+    font-size: 16px;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+     color:rgba(40, 41, 56, 1) ;
+     width: 406px;
+     margin: 15px 0px;
+
+}
+
+.title .titleani{
+    color: rgba(36, 5, 242, 1);
+    margin-left: 0;
+}
+
+.work .work-card{
+    
+    
+    width: 48%;
+}
+
+.work .wccc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.work .work-card h4{
+    
+  
+    font-weight: 600;
+    color: rgba(40, 41, 56, 1);
+     font-family: "Poppins", sans-serif;
+     font-size: 32px;
+     padding-top: 16px;
+     padding-bottom: 8px;
+
+}
+
+.work .work-card p{
+      font-weight: 400;
+    color: rgba(40, 41, 56, 1);
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+    width: 304px;
+}
+/* ============
+work  part end
+============== */
+ 
+/* ============
+Project  part start
+============== */
+.project{
+    padding: 128px 0px;
+}
+.project .box{
+    justify-content: space-between;
+    align-items: center;
+}
+.project .project-ani{
+    color: #2c2076;
+    margin-left: 0px;
+
+}
+.project img:nth-child(2){
+    margin-top: 32px;
+}
+.project .image-box{
+    position: relative;
+    overflow: hidden;
+    
+}
+.project .image-box .overly{
+    width: 52%;
+    height: 100%;
+    background: rgba(28, 30, 83,0.6);
+    position: absolute;
+    top: 0;
+    left: -52%;
+    transition: .4s;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 38px;
+    color: white;
+}
+
+.project .image-box:hover .overly{
+    left: 0%;
+   
+
+}
+.project .image-box-2{
+    position: relative;
+    overflow: hidden;
+    
+}
+.project .image-box-2 .overly-1{
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83,0.6);
+    position: absolute;
+    top: 0;
+    right: 0%;
+    transition: .4s;
+    padding-top: 312px;
+    padding-left: 48px;
+    padding-right: 38px;
+    color: white;
+}
+
+.project .image-box-2:hover .overly-1{
+    right: 100%;
+   
+
+}
+/* ============
+Project  part end
+============== */
+
+
+
+
+
+
+
+/* ============
+Featuer  part start
+============== */
+.feature{
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
+.feature .title p{
+    text-align: center;
+    width: auto;
+}
+.feature .title h2{
+    text-align: center;
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.feature .card{
+    width: 100% !important;
+    padding: 58px 48px 48px 48px;
+    border: 0px;
+    border-radius: 0px;
+
+}
+.feature .card img{
+    width: 6%;
+}
+.feature .card .card-body{
+    padding: 0px !important;
+    
+}
+.feature .card .card-title{
+    font-size: 24px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+
+}
+.feature .card .card-text{
+    font-size: 16px;
+    color: #282938;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+/* ============
+Featuer  part end
+============== */
+
+/* ============
+about  part start
+============== */
+.client{
+    background: #F4F6FC;
+    padding: 128px;
+
+}
+.client .box{
+    column-gap: 14px;
+    padding-top: 48px;
+}
+.client .title h2{
+    font-size: 38px;
+    width: 327px;
+
+}
+.client h3{
+    font-size: 32px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+.client .profile-image{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 205, 205);
+    
+    
+}
+.client .profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.client .profile-content h5{
+    font-size: 18px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+.client .profile-content p{
+    font-size: 12px;
+    color: #282938;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+/* ============
+about  part end
+============== */
+
+
+
+
+
+
+/* ============
+Faq  part start
+============== */
+.faq{
+    padding: 128px 0px;
+}
+
+.accordion-header .span{
+    padding-right: 40px;
+    font-size: 20px;
+    color: blue;
+}
+.accordion-button{
+    font-size: 24px;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+
+.accordion-button.collapsed{
+    
+    color: #000 !important;
+
+    
+}
+.accordion-button{
+    
+    color: #fff !important;
+   
+
+}
+.accordion-item{
+    border: 0px !important;
+}
+.accordion-body{
+    border-bottom: 1px solid #ECECF1;
+    padding-left: 74px;
+    padding-right: 60px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    font-size: 18px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    
+
+
+}
+
+
+ .accordion-button::after{  
+    background-image: none;
+    content: "+";
+    
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+}
+.accordion-button:not(.collapsed)::after{    
+    background-image: none;
+    content: "x";
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    transform: translateY(-50%);
+
+} 
+/* ============
+Faq  part start
+============== */
